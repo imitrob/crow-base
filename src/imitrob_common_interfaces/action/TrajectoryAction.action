@@ -1,0 +1,38 @@
+# robot access control
+std_msgs/Header header
+string key
+int16 robot_id
+
+# trajectory specs
+
+# ee frame to control. Possible to specify Cartesian trajectory for the panda_cam or panda_ee
+string ee_frame
+
+# sequence of poses to go through. The header.stamp can be used to specify the time since start 
+geometry_msgs/PoseStamped[] pose
+
+# standard joint_traj
+trajectory_msgs/JointTrajectory joint_traj
+
+# gripper_state list of bool of same length as joint_traj or single entry. Open: False and Close: True
+bool[] close_gripper
+
+# target object 
+geometry_msgs/PoseStamped obj_pose
+ObjectType obj_type
+
+# flag to change to a scripted approach trajectory when close to the target object
+bool scripted_approach
+
+# flag to indicate if to use the joint trajectory or the pose trajectory
+bool use_joint_traj
+---
+bool done
+ActionResultFlag action_result_flag
+---
+string status  # comment on th current status, if needed
+float32 progress  # 0-1 progress estimate
+geometry_msgs/PoseStamped pose # the controlled pose or the ee pose
+sensor_msgs/JointState joint_state
+float32 gripper_apperture # in meters. 
+ActionPhase action_phase  # some descriptive name of the action execution phase

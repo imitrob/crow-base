@@ -1,0 +1,3 @@
+---
+string[<=16] operation_mode_names
+int16[<=16] operation_modes  # binary encoding - 16 modes should be enough?

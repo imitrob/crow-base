@@ -1,0 +1,31 @@
+type: YOLACT
+top_k: 30
+threshold: 0.1
+
+## specify path to weights, relative to the YOLACT_REPO
+# weights: "./data/yolact/weights/yolact_base_54_800000.pth", #generic COCO weights
+# weights: "./data/yolact/weights/weights_yolact_kuka_30/crow_base_25_133333.pth", # uncomment to use CROW model
+## for config use one of: name of config(string) from yolact config file; path to .obj (used for CROW); or "none" (will try to guess)
+## weights and config must match (crow/generic)
+#"config": "yolact_base_config", #toggle yolact_base_config and crow_base_config. weights must change accordingly.
+#"config": "./data/yolact/weights/weights_yolact_kuka_30/config_train.obj", # uncomment for use with CROW weights
+
+weights_file: "crow_detector/weights/weights.pth"
+config_file: "crow_detector/weights/config.obj"
+
+## specify path to model, relative to the POSENET_REPO
+posenet_model: "./_models/mobilenet_v1_101.pth"
+
+## filter cameras by serial
+object_camera_serials:
+- '105322250885'
+pose_camera_serial: '105322252074'
+
+#output ROS topics are formed as: config["inputs"][0]["camera"] + config["outputs"]["masks"] ,etc.
+outputs:
+  prefix: detections
+  image_annotated: image_annot
+  masks: masks
+  # labels: labels
+  # bboxes: bboxes
+  confidences: confidences

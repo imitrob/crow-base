@@ -1,0 +1,3 @@
+string control_type # joints, endeff
+---
+string trajectory

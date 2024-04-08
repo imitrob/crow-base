@@ -1,0 +1,3 @@
+onto_server_name: "ontology_server"
+onto_iri: "http://imitrob.ciirc.cvut.cz/ontologies/crow"
+owl_ready: "http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl"

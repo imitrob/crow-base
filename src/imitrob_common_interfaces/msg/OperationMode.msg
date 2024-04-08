@@ -1,0 +1,8 @@
+int16 mode 0
+
+int16 UNAVAILABLE = 0  # robot somehow not available
+int16 BASIC_SKILL_MODE = 1
+int16 TRAJECTORY_MODE = 2
+int16 TELEOP_MODE = 4
+int16 KINESTHETIC_MODE = 8
+int16 BEHAVIOR_TREE_MODE = 16

@@ -1,0 +1,82 @@
+name: crow_env
+channels:
+- robostack
+- robostack-staging
+- conda-forge
+- pytorch
+- nvidia
+dependencies:
+- python=3.11
+- pip
+# common python packages
+- numpy=1.25.2
+- scipy
+- pandas
+- cloudpickle
+- numba
+- python-dotenv
+- pyyaml
+# PyTorch
+- pytorch
+- torchvision
+- torchaudio
+- pytorch-cuda
+# ROS packages
+- ros-humble-desktop
+- compilers
+- cmake
+- pkg-config
+- make
+- ninja
+- colcon-common-extensions
+- rosdep
+- ros-humble-diagnostic-updater
+# special deps
+- pyzmq
+- filterpy
+- google-cloud-speech
+- pymysql
+- spatialmath-python
+- nodejs
+- pygraphviz
+- owlrl
+- nltk
+- gtts
+- speechrecognition
+# teleop gesture toolbox
+- fastdtw
+- gdown
+- matplotlib
+#- arviz=0.11.0
+- pymc>=5
+- pyqt>=5
+- qt
+- roboticstoolbox-python
+- scikit-learn
+- seaborn
+- sip
+- spatialgeometry
+- spatialmath-python
+- yaml
+- rosdep
+- rosdistro
+- rospkg
+- ros-humble-control-msgs
+- ros-humble-moveit-msgs
+- ros-humble-geometry-msgs
+- colcon-common-extensions
+- mkl=2017
+- pip:
+  - pyrealsense2
+  - npyscreen
+  - rdflib
+  - dill
+  - transforms3d
+  - pycocotools
+  - open3d
+  - yourdfpy
+  - owlready2
+  - playsound
+  - rdflib_sqlalchemy
+  - machinevision-toolbox-python==0.5.5
+  - transformations==2021.6.6

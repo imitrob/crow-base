@@ -1,0 +1,8 @@
+int64 resource # robot id 
+int64 action # reserve: 1 reserve&hold: 2 release: 22 
+string key      # pass the key to release the resource
+string requester # node name
+string comment  # purpose of reservation
+---
+bool success  # if resource was granted
+string key      # key for future access

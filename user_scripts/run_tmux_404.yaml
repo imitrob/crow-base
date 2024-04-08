@@ -1,0 +1,47 @@
+window:
+  cameras:
+    - crow
+    - ros2 launch crow_cameras cameras.launch.py
+  servers:
+    - crow
+    - ros2 run crow_params server
+    - -v
+    - crow
+    - ros2 run crow_ontology server
+  detector:
+    - -print=Waiting for cameras to come online...(20 seconds)
+    - -sleep=20  # give some time for cameras to go online
+    - crow
+    # - export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/imitrob/TensorRT-7.2.1.6/lib
+    - ros2 run crow_detector aruco_detector
+  # locator:
+  #   - crow
+  #   - ros2 run crow_particle_filter locator
+  # filter:
+  #   - crow
+  #   - ros2 run crow_particle_filter filter
+  #   - -v
+  #   - crow
+  #   - ros2 run crow_particle_filter pcl_cacher
+  adder:
+    - crow
+    - ros2 run crow_ontology adder
+  # wxvis:
+  #   - crow
+  #   - ros2 run crow_monitor wxvis
+  # monitor:
+  #   - crow
+  #   - ros2 run crow_monitor monitor
+  # nlp:
+  #   - crow
+  #   - ros2 run crow_nlp sentence_processor
+  #   - -v
+  #   - crow
+  #   - ros2 run crow_nlp nl_porcupine
+  vis_logic:
+    - sleep=1
+    - crow
+    - ros2 service call /ontology_server/get_parameters rcl_interfaces/srv/GetParameters names:\ ['database_host']\ && ros2 run crow_ontology ovis
+    - -v
+  #  - jcrow
+  #  - ros2 run crow_logic logic404

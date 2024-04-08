@@ -1,0 +1,6 @@
+OperationMode operation_mode
+string key #to use for locking the resource
+---
+string msg  # custom response text, if needed, e.g., additional fail info
+OperationModeChangeReFlag response_flag  # binary enc. see msg OperationModeChangeReFlag
+

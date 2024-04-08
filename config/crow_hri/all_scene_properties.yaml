@@ -1,0 +1,904 @@
+arity:
+  1:
+    can:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: can
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+    crackers:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: crackers
+      reachable: true
+      stackable: true
+      type: storage
+    cube:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: true
+      name: cup
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+  2:
+    box:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: box
+      pickable: false
+      pushable: true
+      reachable: true
+      type: object
+    can:
+      full-liquid: true
+      full-stack: false
+      glued: true
+      name: can
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: false
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+    drawer:
+      container: true
+      full-container: true
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: drawer
+      reachable: false
+      stackable: false
+      type: storage
+  3:
+    can:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: can
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    cube:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: true
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: true
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    drawer:
+      container: true
+      full-container: true
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: drawer
+      reachable: false
+      stackable: false
+      type: storage
+    foam:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: true
+      liquid-container: true
+      name: foam
+      reachable: false
+      stackable: true
+      type: storage
+  4:
+    bowl:
+      container: true
+      full-container: false
+      full-liquid: true
+      full-stack: false
+      liquid-container: true
+      name: bowl
+      reachable: false
+      stackable: false
+      type: storage
+    box:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: box
+      pickable: false
+      pushable: true
+      reachable: false
+      type: object
+    can:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: can
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+    drawer:
+      container: true
+      full-container: true
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: drawer
+      reachable: false
+      stackable: false
+      type: storage
+  5:
+    bowl:
+      container: true
+      full-container: false
+      full-liquid: true
+      full-stack: false
+      liquid-container: true
+      name: bowl
+      reachable: false
+      stackable: false
+      type: storage
+    box:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: box
+      pickable: false
+      pushable: true
+      reachable: true
+      type: object
+    can:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: can
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: false
+      name: cup
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    drawer:
+      container: true
+      full-container: true
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: drawer
+      reachable: false
+      stackable: false
+      type: storage
+  6:
+    bowl:
+      container: true
+      full-container: false
+      full-liquid: true
+      full-stack: false
+      liquid-container: true
+      name: bowl
+      reachable: false
+      stackable: false
+      type: storage
+    can:
+      full-liquid: true
+      full-stack: false
+      glued: false
+      name: can
+      pickable: true
+      pushable: true
+      reachable: true
+      type: object
+    cube:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    drawer:
+      container: true
+      full-container: true
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: drawer
+      reachable: false
+      stackable: false
+      type: storage
+  7:
+    box:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: box
+      pickable: false
+      pushable: true
+      reachable: false
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+    cup:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    drawer:
+      container: true
+      full-container: true
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: drawer
+      reachable: false
+      stackable: false
+      type: storage
+    foam:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: true
+      liquid-container: true
+      name: foam
+      reachable: false
+      stackable: true
+      type: storage
+  8:
+    box:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: box
+      pickable: false
+      pushable: true
+      reachable: false
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+    cube:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cup:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    drawer:
+      container: true
+      full-container: false
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: drawer
+      reachable: true
+      stackable: false
+      type: storage
+  9:
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+    crackers:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: true
+      liquid-container: false
+      name: crackers
+      reachable: false
+      stackable: true
+      type: storage
+    cube:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: false
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+  10:
+    bowl:
+      container: true
+      full-container: false
+      full-liquid: false
+      full-stack: false
+      liquid-container: true
+      name: bowl
+      reachable: true
+      stackable: false
+      type: storage
+    can:
+      full-liquid: true
+      full-stack: false
+      glued: false
+      name: can
+      pickable: true
+      pushable: true
+      reachable: true
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    cube:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+
+property:
+  1:
+    box:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: box
+      pickable: false
+      pushable: true
+      reachable: true
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+    crackers:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: true
+      liquid-container: false
+      name: crackers
+      reachable: false
+      stackable: true
+      type: storage
+    cube:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cup:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+  2:
+    box:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: box
+      pickable: false
+      pushable: true
+      reachable: false
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+    crackers:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: crackers
+      reachable: true
+      stackable: true
+      type: storage
+    drawer:
+      container: true
+      full-container: true
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: drawer
+      reachable: false
+      stackable: false
+      type: storage
+    foam:
+      container: false
+      full-container: false
+      full-liquid: true
+      full-stack: true
+      liquid-container: true
+      name: foam
+      reachable: false
+      stackable: true
+      type: storage
+  3:
+    box:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: box
+      pickable: false
+      pushable: true
+      reachable: false
+      type: object
+    can:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: can
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cube:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: true
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: true
+      name: cup
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    drawer:
+      container: true
+      full-container: false
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: drawer
+      reachable: true
+      stackable: false
+      type: storage
+  4:
+    box:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: box
+      pickable: false
+      pushable: true
+      reachable: false
+      type: object
+    can:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: can
+      pickable: true
+      pushable: true
+      reachable: true
+      type: object
+    crackers:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: crackers
+      reachable: true
+      stackable: true
+      type: storage
+    cube:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: true
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+  5:
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+    crackers:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: crackers
+      reachable: true
+      stackable: true
+      type: storage
+    cube:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cup:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: cup
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+  6:
+    box:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: box
+      pickable: false
+      pushable: true
+      reachable: false
+      type: object
+    can:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: can
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    cube:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: false
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: true
+      type: object
+  7:
+    box:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: box
+      pickable: false
+      pushable: true
+      reachable: false
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    crackers:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: false
+      liquid-container: false
+      name: crackers
+      reachable: true
+      stackable: true
+      type: storage
+    cube:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: true
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: true
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+  8:
+    bowl:
+      container: true
+      full-container: false
+      full-liquid: true
+      full-stack: false
+      liquid-container: true
+      name: bowl
+      reachable: false
+      stackable: false
+      type: storage
+    box:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: box
+      pickable: false
+      pushable: true
+      reachable: true
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    cube:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: true
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+  9:
+    can:
+      full-liquid: true
+      full-stack: false
+      glued: false
+      name: can
+      pickable: true
+      pushable: true
+      reachable: true
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    crackers:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: true
+      liquid-container: false
+      name: crackers
+      reachable: false
+      stackable: true
+      type: storage
+    foam:
+      container: false
+      full-container: false
+      full-liquid: false
+      full-stack: false
+      liquid-container: true
+      name: foam
+      reachable: true
+      stackable: true
+      type: storage
+  10:
+    box:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: box
+      pickable: false
+      pushable: true
+      reachable: false
+      type: object
+    can:
+      full-liquid: false
+      full-stack: false
+      glued: false
+      name: can
+      pickable: true
+      pushable: true
+      reachable: true
+      type: object
+    cleaner:
+      full-liquid: false
+      full-stack: false
+      glued: true
+      name: cleaner
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object
+    cube:
+      full-liquid: false
+      full-stack: true
+      glued: true
+      name: cube
+      pickable: true
+      pushable: true
+      reachable: false
+      type: object
+    cup:
+      full-liquid: true
+      full-stack: false
+      glued: true
+      name: cup
+      pickable: true
+      pushable: false
+      reachable: false
+      type: object

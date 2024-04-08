@@ -1,0 +1,82 @@
+pre:
+  - source /opt/ros/foxy/setup.bash
+  - source install/setup.bash
+
+post:
+  - echo "Job finished"
+
+services:
+  camera:
+    working_dir: .
+    command: ros2 launch crow_cameras cameras.launch.py "force_real:=True"
+    tags: [vision, camera]
+
+  crow_vision_detector:
+    working_dir: .
+    command: ros2 run crow_detector detector
+    tags: [vision, detector]
+
+  crow_vision_locator:
+    working_dir: .
+    command: ros2 run crow_particle_filter locator
+    tags: [vision, locator]
+
+  crow_vision_filter:
+    working_dir: .
+    command: sleep 20 && ros2 run crow_particle_filter filter
+    tags: [vision, filter]
+
+  crow_ontology:
+    working_dir: .
+    commands:
+      - ps aux | grep [f]useki | tr -s ' ' | cut -f2 -d\  | xargs kill 2> /dev/null
+      - ros2 run crow_ontology server
+    tags: [ontology, onto_server]
+
+  crow_param_server:
+    working_dir: .
+    commands:
+      - ros2 run crow_params server
+    tags: [ontology]
+
+  crow_ontology_adder:
+    working_dir: .
+    command: sleep 20 && ros2 run crow_ontology adder
+    tags: [ontology]
+
+  crow_glove:
+    working_dir: .
+    command: ros2 run crow_hi5glove_node glove
+    tags: [glove]
+
+  crow_glove_latency:
+    working_dir: .
+    command: ros2 run crow_hi5glove_node glove_latency
+    #tags: [glove]
+
+  crow_logic:
+    working_dir: .
+    command: sleep 20 && ros2 run crow_control logic
+    tags: [logic]
+
+  crow_snowboy:
+    command: ros2 run crow_hri stt_snowboy --noparam
+    tags: [hri, snowboy]
+
+  tts_pyttsx3:
+    command: ros2 run crow_hri tts_pyttsx3
+    tags: [hri, pyttsx3, tts]
+
+  tts_stdout:
+    command: ros2 run crow_hri tts_stdout
+    tags: [hri, tts_stdout]
+
+  # This is a time synchronization server
+  # When used by Widnows, it should ensure that both machines have the same time
+  chrony:
+    command: bash -c "sudo chronyd -n -d -u `whoami`"
+    tags: [ntp, time, glove]
+  
+  calibrator-gui:
+    command: ros2 run cam_calib calibrator
+    tags: [ calib ]

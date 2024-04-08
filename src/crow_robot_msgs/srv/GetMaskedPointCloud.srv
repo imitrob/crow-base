@@ -1,0 +1,15 @@
+# Expected position of masked point cloud in global coordinate system
+geometry_msgs/Pose expected_position
+
+ObjectType object_type
+RobotActionType robot_action_type
+
+# Units of position in expected position
+Units request_units
+
+---
+
+# Masked point cloud in global coordinate system
+sensor_msgs/PointCloud2 masked_point_cloud
+# Base unit of masked_point_cloud
+Units response_units

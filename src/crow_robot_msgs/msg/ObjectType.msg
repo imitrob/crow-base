@@ -1,0 +1,22 @@
+int32 type
+
+int32 UNKNOWN = -1
+int32 POINT = 0
+
+int32 CUBE = 1
+int32 SPHERE = 2
+int32 WAFER = 3
+int32 WHEEL = 4
+int32 CAR_ROOF = 5
+int32 EXCAVATOR_BUCKET = 6
+
+int32 HAMMER = 101
+int32 SCREWDRIVER = 102
+int32 WRENCH = 103
+
+int32 NUT = 201
+int32 PEG = 202
+int32 SCREW = 203
+
+int32 HAND = 301
+int32 ROBOT = 302

@@ -1,0 +1,12 @@
+std_msgs/Header header
+string key
+int16 robot_id
+TargetObject[<=2] targets
+RobotActionType robot_action_type
+---
+bool done
+ActionResultFlag action_result_flag
+---
+string status  # comment on th current status, if needed
+float32 progress  # 0-1 progress estimate
+ActionPhase action_phase  # some descriptive name of the action execution phase

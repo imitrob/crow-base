@@ -1,0 +1,17 @@
+pyyaml
+numpy
+scipy
+rospkg
+pyaudio
+google-cloud-speech
+dill
+python-dotenv
+pycocotools
+transforms3d
+zmq
+cloudpickle
+pandas
+rdflib
+rdflib_sqlalchemy
+filterpy
+npyscreen

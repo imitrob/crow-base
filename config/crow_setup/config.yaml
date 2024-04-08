@@ -1,0 +1,11 @@
+
+
+language: "EN"
+object_set:
+  - crow
+objects:
+  - cube
+  - sphere
+  - wheel
+# 1 - step by step, 2 - mvae, 3 - interactive mode using BT
+execution_mode: 1 

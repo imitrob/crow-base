@@ -1,0 +1,72 @@
+align_depth:
+    enable: True
+clip_distance: 3.0
+base_frame_id: 'link'
+dense_pointcloud: True
+enable_color: True
+enable_depth: True
+enable_infra: False
+enable_infra1: False
+enable_infra2: False
+enable_fisheye: False
+enable_fisheye1: False
+enable_fisheye2: False
+enable_gyro: False
+enable_accel: False
+enable_pose: False
+enable_sync: False
+device_type: 'd455'
+initial_reset: True
+rgb_camera:
+    enable: True
+    # profile: '848x480x5'
+    # profile: '640x360x5'
+    profile: '1280x800x5'
+
+    auto_exposure_priority: False
+    backlight_compensation: True
+    enable_auto_exposure: True
+    enable_auto_white_balance: True
+    frames_queue_size: 16
+    power_line_frequency: 1
+    saturation: 71
+    sharpness: 74
+depth_module:
+    enable: True
+    profile: '640x360x15'
+    # profile: '848x480x15'
+    emitter_always_on: False
+    emitter_enabled: 0
+    emitter_on_off: False
+    auto_exposure_limit: 33000
+    auto_gain_limit: 16
+    enable_auto_exposure: True
+    error_polling_enabled: True
+    frames_queue_size: 16
+    inter_cam_sync_mode: 0
+    laser_power: 280.0
+    visual_preset: 4  # 3=hi-acc; 4=hi-dens
+temporal:
+    enable: True
+    filter_smooth_alpha: 0.3
+    filter_smooth_delta: 30
+    frames_queue_size: 16
+    holes_fill: 3
+spatial:
+    enable: False
+    filter_magnitude: 2
+    filter_smooth_alpha: 0.5
+    filter_smooth_delta: 30
+    holes_fill: 1
+    frames_queue_size: 16
+pointcloud:
+    enable: True
+    stream_filter: 2
+    # stream_index_filter:
+    # stream_filter_format: 1
+    frames_queue_size: 16
+    filter_magnitude: 2
+    allow_no_texture_points: False
+    ordered_pc: True
+# colorizer:
+#     enable: True

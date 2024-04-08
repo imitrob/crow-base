@@ -1,0 +1,5 @@
+# Request data type
+int16 robot_id
+---
+# Response data type
+RobotStatus robot_status

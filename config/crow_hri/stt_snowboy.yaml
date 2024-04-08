@@ -1,0 +1,18 @@
+
+# What language will the STT use
+lang: "en" # or "cs"  
+
+# Gain of the mic
+gain: 0.5
+
+# Maximum length ( in seconds ) of voice input
+timeout: 20
+
+# Time ( in seconds ) which STT will wait at the beginning for any voice command
+begins: 2
+
+# Time ( in seconds ) which STT will wait at the end of voice command 
+ends: 2
+
+# Ignore parameter server
+ignore_params: True

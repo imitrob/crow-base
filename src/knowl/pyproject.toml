@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "knowl"
+version = "0.1.2"
+description = "RDFLib wrapper for RDF tripple store ontology communication."
+authors = ["radoskov"]
+license = "LGPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+rdflib = ">=6"
+PyYAML = ">=5"
+rdflib-sqlalchemy = "^0.5.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.3"
+codecov = "^2.1.13"
+coverage = "^3"
+tox = "^3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
